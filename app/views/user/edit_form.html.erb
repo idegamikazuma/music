@@ -1,0 +1,8 @@
+<%= form_tag("/user/#{@user.id}/edit",{multipart: true}) do %>
+<p>画像</p>
+<input name="image_name" type="file">
+<p>ユーザー名</p>
+<input name="name" value="<%= @user.name %>">
+
+<input type="submit" value="更新">
+<% end %>

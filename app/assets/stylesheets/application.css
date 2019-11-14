@@ -1,0 +1,36 @@
+header {
+  background-color: rgb(50, 50, 51);
+}
+ul,il {
+  color: white;
+}
+.header-logo {
+  font-size: 40px;
+  color: black;
+}
+img{
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  180px;       /* ※縦横を同値に */
+  height: 180px;       /* ※縦横を同値に */
+  margin-bottom: 20px;
+  }
+.music-genre{
+  background-color: rgb(50, 50, 51);
+}
+.mein-font{
+  color: rgb(101, 164, 219);
+  padding-top: 10px;
+}
+.genre{
+  color: aliceblue;
+}
+.follow{
+  float: left;
+  padding-left: 30%;
+  padding-top: 40px;
+}
+.follower{
+  float: right;
+  padding-right: 30%;
+  padding-top: 40px;
+}

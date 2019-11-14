@@ -1,0 +1,78 @@
+<br>
+<br>
+<div class="main user-show">
+  <div class="container">
+    <div class">
+    <p class="follow">フォロー</p>
+    <p class="follower">フォロワー</p>
+    <div class="mx-auto user" style="width: 200px;">
+      <div class="circle-img">
+        <img src="<%="/user_images/#{@user.image_name}"%>">
+        <h2 class="text-center"><%= link_to(@user.name,"/user/#{@user.id}/edit_form") %></h2>
+        <p class="text-center"><%= @user.email %></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="my-best">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="text-center"><%= link_to("投稿した曲","/posts/#{@current_user.id}/show") %></h2>
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-center"><%= link_to("おすすめの曲","") %></h2>
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-center"><%= link_to("いいねした曲","") %></h2>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div class="music-genre">
+  <h1 class="text-center mein-font">ジャンル分け</h1>
+  <br>
+  <div class="genre row">
+    <div class="col-md-2">
+      <h1 class="text-center">EDM</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">HIP-HOP</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">HOP</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ロック</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ラップ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+    <div class="col-md-2">
+      <h1 class="text-center">ジャズ</h1>
+    </div>
+  </div>
+</div>
